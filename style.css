@@ -92,3 +92,126 @@ header button{
     top: 0;
     left: 320px;
 }
+
+/*section plans style*/
+
+.container-section-plans{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-plans h2{
+    font-size: 2.5rem;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+
+.section-plans .billing-selector{
+    display: inline;
+    margin-right: 50px;
+}
+
+.container-plan{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.plan{
+    width: 33%;
+    border: 1px solid #697893;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.plan>*:not(.plan-title){
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.plan-title{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #697893;
+    padding-right: 30px;
+}
+
+.plan h3 ,
+.plan-team-enterprice h3{
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.plan-price{
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.plan-price-subtitle{
+    color: #697893;
+    padding-bottom: 50px;
+}
+
+.plan-specific{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 0.7rem;
+}
+
+.plan-specific i{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.section-plans button:not(.plan-azienda){
+    background-color: #0061ff;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section-plans .middle-line{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    width: 20%;
+    border-bottom: 1px solid #697893;
+}
+
+.fa-check{
+    color: #0061ff;
+}
+
+.plan-azienda{
+    background-color: #0061ff;
+    color: #ffffff;
+    padding: 10px 75px;
+    margin-top: 30px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.plan-team-enterprice{
+    border: 1px solid #697893;
+    position: relative;
+}
+
+.plan-team-enterprice>*:not(.plan-title){
+    margin: 0 30px;
+}
+
+.plan-team-enterprice-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-team-enterprice-description{
+    max-width: 70%;
+}
+
+.plan-team-enterprice-description>.plan-price{
+    margin-bottom: 30px;
+}
