@@ -179,9 +179,8 @@ header button{
     margin-bottom: 30px;
 }
 
-.section-plans .middle-line{
+.middle-line{
     margin-top: 30px;
-    margin-left: 30px;
     margin-bottom: 35px;
     width: 20%;
     border-bottom: 1px solid #697893;
@@ -282,4 +281,104 @@ header button{
     max-width: 60%;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+/*section designit style*/
+
+.section-designit{
+    display: flex;
+}
+
+.container-brands{
+    display: flex;
+    flex-wrap: wrap;  
+    width: calc(100% / 3); 
+}
+
+.brand{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand>img{
+    width: 50%;
+    fill: #ffffff;
+}
+
+.designit-description{
+    width: calc(100% / 3);
+    padding: 30px;
+    padding-bottom: 150px;
+}
+
+.logo1{
+    background-color: #a2d39b;
+    border: 10px solid #c2e2bd;
+}
+
+.logo2{
+    background-color: #61082b;
+}
+
+.logo3{
+    background-color: #0093ce;
+}
+
+.logo4{
+    background-color: #ff1c1c;
+}
+
+.designit-description>img{
+    width: 50%;
+}
+
+.logo5{
+    background-color: #d5001f;
+}
+
+.logo6{
+    background-color: #b4d0e7;
+}
+
+.logo7{
+    background-color: #0d2481;
+}
+
+.logo8{
+    background-color: #ffd830;
+}
+
+.designit-description .last-string{
+    padding-top: 30px;
+}
+
+.take-dropbox-business{
+    background-color: #b4d0e7;
+}
+
+.container-tdb{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-tdb>div{
+    max-width: 50%;
+}
+
+.container-tdb h2{
+    color: #5e052a;
+
+}
+
+.container-tdb button{
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border: none;
 }
