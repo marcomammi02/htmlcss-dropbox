@@ -6,6 +6,14 @@
     font-size: 14px;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
 /*header style*/
 
 header{
@@ -101,7 +109,6 @@ header button{
 }
 
 .section-plans h2{
-    font-size: 2.5rem;
     margin-top: 100px;
     margin-bottom: 45px;
 }
@@ -138,7 +145,6 @@ header button{
 
 .plan h3 ,
 .plan-team-enterprice h3{
-    font-size: 1.2rem;
     padding-top: 30px;
     padding-bottom: 10px;
 }
@@ -197,6 +203,7 @@ header button{
 .plan-team-enterprice{
     border: 1px solid #697893;
     position: relative;
+    padding-bottom: 30px;
 }
 
 .plan-team-enterprice>*:not(.plan-title){
@@ -242,4 +249,37 @@ header button{
     border: 1px solid #000000;
     padding: 10px 15px;
     margin-top: 30px;
+}
+
+/*section more options style*/
+
+.section-more-operations{
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+
+.container-section-more-operations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.operation{
+    width: calc(33.3% - 20px);
+}
+
+.operation img{
+    width: 100%;
+}
+
+.operation h3{
+    margin-bottom: 25px;
+}
+
+.section-more-operations .last-title{
+    max-width: 60%;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
