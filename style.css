@@ -215,3 +215,31 @@ header button{
 .plan-team-enterprice-description>.plan-price{
     margin-bottom: 30px;
 }
+
+/*section partner dropbox style*/
+
+.section-partner-dropbox{
+    max-width: 900px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-partner-dropbox img{
+    width: 60%;
+    margin-right: 50px;
+}
+
+.section-partner-dropbox h3{
+    font-size: 1.2rem;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section-partner-dropbox button{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
