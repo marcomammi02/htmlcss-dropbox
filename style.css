@@ -306,6 +306,7 @@ header button{
 .brand>img{
     width: 50%;
     fill: #ffffff;
+    filter: invert(1);
 }
 
 .designit-description{
@@ -381,4 +382,30 @@ header button{
     padding: 10px 25px;
     background-color: #ffffff;
     border: none;
+}
+
+/*section faq style*/
+
+.container-section-faq{
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+.container-section-faq h2{
+    padding-bottom: 50px;
+}
+
+.faq:first-child{
+    border-top: 1px solid #000000;
+}
+
+.faq{
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.faq i{
+    margin-right: 30px;
 }
